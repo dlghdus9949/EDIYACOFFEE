@@ -1,0 +1,177 @@
+body {width: 100%; min-width: 320px; font-family: 'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif;
+    font-size: 13px; color: #464646; line-height: 1.7em;}
+
+header {position: absolute; width: 100%; min-width: 320px;
+    height: 171px; background: #fff; z-index: 52;}
+
+header .top_align {position: absolute; height: 50px; width: 100%; background: #243c84; }
+
+header .lnb {display: table; float: left; width: auto; position: relative;}
+header .lnb li:last-child {background: none; margin-right: 0; padding-right: 0;}
+header .lnb li {display: inline-block; background: url(../images/util_line.gif) no-repeat left;
+    text-align: center; background-position: right; padding: 0 20px;}
+header .lnb li a {display: block; line-height: 50px; height: 50px; color: #fff; font-size: 12px;}
+
+header .top_util {float: right; width: auto; margin: 10px 30px 10px 0;}
+
+header .top_member {float: left; margin: 0px 20px 0 25px;}
+header .top_member li:first-child {background: none; margin-left: 0; padding-left: 0;}
+header .top_member li {background: url(../images/util_line.gif) no-repeat left; display: inline-block;
+    margin-left: 12px; padding-left: 13px;}
+header .top_member li a {color: #fff; display: block; line-height: 30px; height: 30px; font-size: 13px;}
+
+header .top_sns {float: left; margin-right: 4px 15px 0 0;}
+header .top_sns li {display: inline-block; margin: 0 5px 0 0;}
+header .top_sns li a {display: block; width: 28px; height: 28px;}
+header .top_sns li:nth-child(1) a {background: url(../images/top_sns01.png) no-repeat; background-size: cover;}
+header .top_sns li:nth-child(2) a {background: url(../images/top_sns02.png) no-repeat; background-size: cover;}
+header .top_sns li:nth-child(3) a {background: url(../images/top_sns03.png) no-repeat; background-size: cover;}
+header .top_sns li:nth-child(4) a {background: url(../images/top_sns04.png) no-repeat; background-size: cover;}
+
+
+.blind {display: block; position: absolute; overflow: hidden; left: -9999px; width: 1px; height: 1px;
+    font-size: 1px; line-height: 0px; text-indent: -9999px;}
+
+
+header .search {position: relative; float: right; display: block; width: 160px; height: 30px; background: #fff;}
+form {display: block;}
+header .search input {position: absolute; width: 122px; border: none; left: 0; height: 30px;}
+header .search a {position: absolute; display: block; right: 0; width: 38px; height: 30px;
+    background: url(../images/icon_search.gif) no-repeat center;}
+
+
+header .top_logo {position: relative; top: 80px; left: 50%; clear: both; margin: 0; margin-left: -101px; z-index: 51;}
+
+
+header .main {position: absolute; top: 125px; left: 50%; width: auto; margin-left: -514px; border-top: none; border-bottom: none;}
+header .main li {display: inline-block; background: none;}
+header .main li a {height: auto; line-height: normal; border-top: none; border-bottom: none; font-size: 16px; padding: 0 40px; color: #202023;}
+header .main li a span {position: relative;}
+header .main li a:hover span::after {position: absolute; left: 0; bottom: -9px; content: ""; display: block; width: 100%;
+    height: 4px; background: #000;}
+
+
+.visual {padding-top: 171px; height: auto; position: relative; }
+.visual .prev {display: block; position: absolute; top: 50%; left: 30px;}
+.visual .next {display: block; position: absolute; top: 50%; right: 30px;}
+.visual a {color: transparent;}
+
+.visual .control {position: absolute; left: 0; bottom: 3%; width: 100%; text-align: center;}
+.visual .control ul {font-size: 0; display: inline-block; position: relative; top: 6px;}
+.visual .control ul li {padding: 0 3px; display: inline-block;}
+.visual .control ul li .on a {background: #243C84;}
+.visual .control ul li a {display: block; width: 10px; height: 10px; border-radius: 5px; background: #fff;}
+
+.visual img {overflow: hidden; width: 100%; text-align: center;}
+
+
+.beanist {background: url(../images/main_beanist_bg.gif)no-repeat center; padding: 112px 0 80px; background-size: cover;}
+.beanist h2 {font-size: 42px; line-height: 1.1em; text-align: center; font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100; color: #3c3c3c;}
+.beanist h2 em {display: inline-block; font-weight: 900; color: #90470c;}
+.beanist h2::after {content: ""; display: block; width: 100px; height: 1px; margin: 51px auto 0; background: #3c3c3c;}
+.beanist h3 {margin: 53px 0 60px; font-size: 26px; line-height: 1.4em; text-align: center; font-weight: 100; color: #3c3c3c; font-family: 'Nunito Sans', sans-serif;}
+.beanist h3 em {font-weight: 500; font-style: normal;}
+
+
+.beanist .box {position: relative; margin-bottom: 0px; padding: 0; max-width: 100%; height: 281px;}
+.beanist .box .ame {max-width: 900px; margin: auto; text-align: center;}
+.beanist .box ul li {display: inline-block; width: 29%; margin: 0 2%; vertical-align: top;}
+.beanist .box ul li .pro_img {max-width: 217px; margin: 0 0 0 22px;}
+.beanist .box ul li .pro_img img {width: 100%; display: block;}
+.beanist .box ul li dl {margin-top: 20px; width: 120%; margin-left: -10%; list-style-type: none; padding: 0px;}
+dl {display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-start: 0px;}
+.beanist .box ul li dt {font-size: 20px; font-weight: 900; line-height: 1.2em; color: #693a13;}
+.beanist .box ul li dd {display: block; font-size: 15px; color: #cc8e5d;}
+
+
+.beanist .control2 {position: absolute; left: 0; bottom: -80%; width: 100%; text-align: center;}
+.beanist .control2 ul {font-size: 0; display: inline-block; position: relative; top: 140px;}
+.beanist .control2 ul li {padding: 0 3px; display: inline-block;}
+.beanist .control2 ul li .on {background: #90470c;}
+.beanist .control2 ul li a {display: block; width: 10px; height: 10px; border-radius: 5px; background: #fff;}
+
+
+.dream_factory {width: 100%; background: url(../images/dream_factory_bg.gif) repeat-y; overflow: hidden; background-size: 100% auto;}
+.dream_factory .factory_con {margin-bottom: 120px; padding: 0 4%;}
+.dream_factory .factory_con .txt {padding-top: 90px; line-height: 2em; text-align: left; font-size: 30px; font-weight: 900; color: #fff;}
+.drea   m_factory .factory_con h2 {font-family: 'Nunito Sans', sans-serif;}
+.dream_factory .factory_con p {margin-top: 7px; text-align: left; font-size: 17px; color: #fff; line-height: 1.4em;}
+.dream_factory .factory_con .btn {margin: 36px auto; text-align: left; width: auto; position: relative; z-index: 20;}
+.dream_factory .factory_con .btn a {display: inline-block; border: solid 1px #fff; color: #fff; margin: 0 3px 0 4px;
+    width: 188px; height: 42px; text-align: center; line-height: 42px; font-weight: 500; letter-spacing: 0.1em;}
+.dream_factory .factory_img {margin-top: -310px;}
+.dream_factory .factory_img img {max-width: 860px; height: auto; vertical-align: top;}
+
+
+.main_block {position: relative; background-position: 30%; background-size: cover; background: url(../images/block02_bg.jpg)no-repeat;
+    width: 100%; height: 500px; padding-bottom: 0;}
+.main_block h2 {padding-top: 112px; font-size: 42px; text-align: center; position: relative; font-weight: 100; color: #fff;
+    line-height: 1.1em; z-index: 20; display: block;}
+.main_block h2 em {display: inline-block;}
+.main_block h2::after {content: ""; display: block; width: 100px; height: 1px; margin: 51px auto 0; background: #fff;}
+.main_block h3 {text-align: center; position: relative; color: #fff; font-weight: 100; line-height: 1.4em; margin-bottom: 45px; margin-top: 53px; font-size: 26px;}
+.main_block .btn {position: relative; width: 190px; margin: auto; z-index: 20;}
+.main_block .btn a {border: solid 1px #fff; margin: 0 3px 0 4px; color: #fff; display: inline-block; width: 188px; height: 42px; line-height: 42px; text-align: center; font-size: 15px; font-weight: 500; letter-spacing: 0.1em;}
+
+
+.company {position: relative; background: url(../images/company_bg.jpg)no-repeat center;
+    background-size: cover; width: 100%; height: 460px; padding-bottom: 54px;}
+.company .company_wrap {float: right; display: block; padding: 0 110px 0 0;}
+.company .company_wrap h2 {text-align: left; font-size: 42px; padding-top: 87px; line-height: 1.15em;
+    color: #fff; font-weight: 100;}
+.company .company_wrap p {margin: 55px 0 0 0; color: #fff; font-size: 17px; line-height: 1.4em;}
+.company .company_wrap .btn {margin: 36px 0; width: auto; text-align: left;}
+.company .company_wrap .btn a {border: solid 1px #ffffff; color: #fff; margin: 0 3px 0 4px; padding: 0 20px; display: inline-block;
+    width: auto; min-width: 148px; height: 42px; line-height: 42px; text-align: center; font-size: 15px; font-weight: 500;}
+
+
+.main_bottom {width: 100%; max-width: 1180px; margin: auto; margin-top: 110px;}
+.main_bottom::before {position: absolute; display: block; content: ""; width: 100%; height: 650px; background: #efefef; margin-top: -280px; left: 0; z-index: -99;}
+.main_bottom .franchise {background: url(../images/main_franchise_bg.jpg)no-repeat left; background-size: cover;}
+.main_bottom .franchise a {display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.main_bottom .franchise h2 {font-size: 22px; font-weight: 600; color: #fff; line-height: 1.25em; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;}
+.main_bottom .franchise h2::after{margin-top: 23px; display: block; content: ""; width: 42px; height: 1px; background: #fff;}
+.main_bottom .franchise p {font-size: 17px; margin-top: 27px; color: #fff; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum; line-height: 1.4em;}
+
+.main_bottom .findstore {background: url(../images/main_store_bg.jpg)no-repeat right top;}
+
+.main_bottom .main_bn {position: relative; box-sizing: border-box; float: left; width: 27.96%; height: 330px; margin-right: 0.84%; padding: 44px 35px 0 35px;}
+.main_bottom .findstore h2 {font-size: 22px; font-weight: 600; color: #fff; line-height: 1.25em; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;}
+.main_bottom .findstore h2::after{margin-top: 23px; display: block; content: ""; width: 42px; height: 1px; background: #fff;}
+.main_bottom .findstore p {font-size: 17px; margin-top: 27px; color: #fff; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum; line-height: 1.4em;}
+.main_bottom .findstore .search2 {margin-top: 35px; position: relative;}
+.main_bottom .findstore .search2 input {position: absolute; display: block; max-width: 320px; width: 100%; height: 44px; border: solid 3px #ffffff; background: #1c3269; color: #fff; box-sizing: border-box;}
+.main_bottom .findstore .search2 input::placeholder {color: #fff; text-align: left;}
+.main_bottom .findstore .search2 a {margin-left: 210px; position: absolute;}
+.main_bottom .findstore .search2 a img {border: 0px; vertical-align: top;}
+
+.main_bottom .main_store {float: left; width: 42.37%; height: 330px; position: relative;}
+.main_bottom .main_store .news {margin: 8px 0 0 4%; width: 96%;}
+.main_bottom .main_store .news h2 {font-size: 22px; font-weight: 600; color: #202023; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;}
+.main_bottom .main_store .news .more_btn {float: right; margin-top: -17px;}
+.main_bottom .main_store .news ul {display: table; width: 100%; margin-top: 21px;}
+.main_bottom .main_store .news ul li {margin-bottom: 4px;}
+.main_bottom .main_store .news ul li a {font-size: 15px; color: #7d7d7e;}
+.main_bottom .main_store .news ul li span {display: block; float: right; font-size: 13px; margin-top: 2px; color: #a4a4a5;}
+
+.main_bottom .main_store .brochure {position: absolute; bottom: 0; margin-top: 0; width: 100%; height: 135px; background: #cbc3b2;}
+.main_bottom .main_store .brochure a {position: absolute; display: block; width: 100%; height: 100%; z-index: 10;}
+.main_bottom .main_store .brochure h2 {font-size: 22px; color: #fff; margin-left: 35px; font-weight: 600; font-family: '나눔스퀘어', NanumSquare, NS, '맑은 고딕', MalgunGothic, '돋움', Dotum;
+    line-height: 1.1em; background: url(../images/main_brochure_arrow.png)no-repeat bottom left; padding: 36px 0 24px 0;}
+.main_bottom .main_store .brochure img {position: absolute; top: -26px; right: 16px; width: auto; height: auto;}
+
+
+footer {position: relative; clear: both; width: 100%; background: #262626; text-align: center;}
+footer .util {border-bottom: solid 1px #464646; padding: 16px 0;}
+footer .util li {display: inline-block; margin: 3px 19px;}
+footer .util li a {color: #818181;}
+footer select {position: absolute; right: 44%; margin-right: -500px; top: 15px; display: block; width: 168px;
+    border: solid 1px #d9d9d9;}
+footer .ccm {position: absolute; text-align: right; width: 100%; margin-top: 30px; padding-right: 30px; right: 9%;}
+footer .btm_logo {margin: 41px 0 24px;}
+footer .btm_logo img {vertical-align: top;}
+footer .info {width: 90%; max-width: 700px; margin: auto; margin-bottom: 14px; color: #6c6c6c; font-size: 12px; line-height: 1.7em;}
+footer .info p {display: inline-block; margin-right: 10px; padding-right: 10px; background: url(../images/footer_line.gif) no-repeat right;
+    font-size: 12px; line-height: 1.7em;}
+footer .copy {padding-bottom: 35px; font-size: 12px; font-weight: 700; color: #6c6c6c;}
